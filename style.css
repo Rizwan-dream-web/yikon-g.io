@@ -1,0 +1,197 @@
+@charset "utf-8";
+body { margin:0px; padding:0px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:14px;}
+
+h1, h2, h3, h4, h5, h6, span, textfield, textarea, label, form, input, ratio, p, a, ul, ol, li, strong{ margin:0px; padding:0px;}
+
+
+
+a{ text-decoration:none}
+img{ border:none;}
+a,img{ border:none}
+
+/*****************************************main divs starts*******************************/
+
+#header-main{ width:100%; float:left; background:url(../images/headerbg2.png) left top no-repeat; padding:30px 0 158px 0;}
+#section-main{ width:100%; float:left;}
+#footer-main{ width:100%; float:left;}
+.wrap{ width:1170px; margin:0 auto 0 auto;}
+
+/***************************************main divs ends**********************************/
+
+/**************************************header div starts********************************/
+
+.header-top{ width:100%; float:left;}
+
+.logo{ width:15%; float:left; border-right:#b9b0ae 1px solid;}
+
+.phone{ width:15%; float:left; font-size:22px; color:#484848; line-height:47px; margin:0 3% 0 2%;}
+
+.nav{ width:45%; float:left; height:47px;}
+.nav ul{ list-style:none; margin:0; padding:0;}
+.nav ul li{ line-height:47px; float:left; position:relative;}
+.nav ul li a{ font-size:18px; color:#484848; display:block;padding:0 17px 0 17px }
+.nav ul li a:hover{ color:#eb1676; border-bottom:#eb1676 2px solid;}
+.nav ul li a.active{ color:#eb1676; border-bottom:#eb1676 2px solid;}
+/*********2nd ul ************/
+.nav ul li ul{ position:absolute; left:0; top:47px; visibility:hidden; width:200px; text-transform:capitalize;}
+.nav ul li:hover ul{ visibility:visible; background:rgba(60,4,65,50%);}
+
+.nav ul li:hover ul li{ float:none;}
+.nav ul li:hover ul li a{ color:#fff; border:none;}
+.nav ul li:hover ul li a:hover{  background:rgba(0,0,0,50%); color:#fff;}
+
+
+.nav ul li:hover ul ul{ position:absolute; left:200px; top:0;background:rgba(60,4,65,50%); visibility:hidden;}
+.nav ul li ul li:hover ul{ visibility:visible; background:rgba(60,4,65,50%);}
+
+.nav ul li:hover ul ul ul { position:absolute; left:200px; top:0; width:200px; visibility:hidden;}
+.nav ul li ul li ul li:hover ul{ visibility:visible; background:rgba(60,4,65,50%); }
+
+
+
+
+.search-main{ width:17%; float:right; background:none; border-bottom:#cac8c7 1px solid;}
+.search{ width:80%; padding:11px 0 11px 0; float:left; outline:none;  background:none; border:none;}
+.search-img{ width:20px; height:44px; float:left; background:url(../images/search-icon.png) left center no-repeat; outline:none; padding:0; border:none;}
+
+
+.header-bot{ width:45%; float:left; padding:150px 0 0 0;}
+.header-bot h1{ font-family:"Myriad Pro"; font-size:56px; font-weight:bold; color:#e91677; text-shadow:#000 0 1px 0px}
+.header-bot p{ font-size:32px; color:#000; padding:15px 0 20px 0;}
+.header-bot a{ width:50%; font-size:20px; line-height:54px; color:#fff; display:block; background:url(file:///D|/Students/1%20rizwan/XHTML/sites/4th/images/btn-grdnt-line.png) left top repeat-x; text-align:center; border-radius:5px;}
+.header-bot a:hover{ background:url(file:///D|/Students/1%20rizwan/XHTML/sites/4th/images/btn-grdnt-line-ho.png) left top repeat-x;}
+
+
+.section1{ width:100%; float:left;text-align:center; background:url(file:///D|/Students/1%20rizwan/XHTML/sites/4th/images/ring.png) left center no-repeat; padding:100px 0 100px 0;}
+.section1 h1{ font:"Myriad Pro"; font-size:46px; font-weight:bold; color:#a8228c; }
+.section1 p{ font-family:"Myriad Pro"; font-size:17px; color:#484848; line-height:32px; padding:20px 0 50px 0;}
+.section1 a{ width:15%; display:block; font-family:"Myriad Pro"; font:20px; padding:10px 5px 10px 5px; border:#a8228c 1px solid; color:#a8228c; text-align:center; margin:0 auto 0 auto; border-radius:3px;}
+.section1 a:hover{ border:#03F 1px solid; color:#03F;border-radius:3px;}
+
+
+.box-main{ width:100%; float:left;}
+.box-left{ width:33%; float:left; background:url(../images/box-left.png) center center no-repeat; background-color:#18b2b9; padding:100px 0 0 0; min-height:500px;}
+.box-mid{ width:34%; float:left; background:url(../images/box-mid.png) center center no-repeat; background-color:#214e94;  padding:100px 0 0 0; min-height:500px;}
+.box-right{ width:33%; float:left; background:url(../images/box-right.png) center center no-repeat; background-color:#ab2186; padding:100px 0 0 0; min-height:500px;}
+
+
+
+
+.repro{ width:80%; float:left; margin: 0 10% 0 10%;}
+.repro ul{ list-style:none; margin:0px ; padding:0;}
+.repro ul li{font-family:"Myriad Pro"; font-size:20px; color:#fff; line-height:20px; display:block; padding:0 0 25px 0; text-align:center;}
+.repro ul li h1{font-family:"Myriad Pro"; font-size:30px; font-weight:bold; color:#fff; line-height:38px; display:block; text-align:center;}
+
+
+
+
+
+
+.blacksec-main{ width:100%; float: left;}
+.blacksec-left{ width:30%; float:left; background-color:#000; padding:91px 5% 129px 5%;}
+.blacksec-left h1{ font-family:"Myriad Pro"; font-size:43px; color:#fff;}
+.blacksec-left p{  font-family:"Myriad Pro"; font-size:18px; color:#fff; padding:15px 0 50px 0; line-height:28px;}
+.blacksec-left a{  font-family:"Myriad Pro"; font-size:20px; color:#fff; background:none; border:#fff solid 1px; padding:10px 25px 10px 15px;}
+.blacksec-left a:hover{ border:#039 1px solid; color:#039;}
+.blacksec-right{ width:60%; float:left; padding:0px;}
+.blacksec-right img{ width:100%;}
+
+
+.blacksec2-right{ width:30%; float:left; background-color:#eb1676; padding:92px 5% 128px 5%;}
+.blacksec2-right h1{ font-family:"Myriad Pro"; font-size:43px; color:#fff;}
+.blacksec2-right p{  font-family:"Myriad Pro"; font-size:18px; color:#fff; padding:15px 0 50px 0; line-height:28px;}
+.blacksec2-right a{  font-family:"Myriad Pro"; font-size:20px; color:#fff; background:none; border:#fff solid 1px; padding:10px 25px 10px 15px;}
+.blacksec2-right a:hover{ border:#000 1px solid; color:#000;}
+.blacksec2-left{ width:60%; float:left; }
+.blacksec2-left img{ width:100%;}
+
+
+
+
+.leadin-main{ width:100%; float:left; background-color:#f2f2f2; padding:100px 0 100px 0;}
+
+.lead-top{ font-family:"Myriad Pro"; font-size:46px; color:#a8228c; font-weight:bold; text-align:center; padding:0 0 22px 0;}
+.lead-top span{ color:#000; font-size:46px; font-family:"Myriad Pro"; font-weight:bold;}
+
+
+.lead-bot{ width:100%; float:left;}
+.lead-bot-left{ width:79%; float:left;}
+.lead-bot-left ul{ list-style:none; margin:0px; padding:0px;}
+.lead-bot-left ul li{ float:left; display:block; margin:0 2% 0 0; text-align:center;}
+.lead-bot-left ul li h2{ font-family:"Myriad Pro"; font-size:22px; font-weight:bold; color:#a8228c; padding:20px 0 5px 0;}
+
+.lead-bot-right{ width:18%; float:right;}
+
+.top{}
+.top h1{ font-family:"Myriad Pro"; font-size:36px; font-weight:bold; color:#a8228c;}
+.top h2{ font-family:"Myriad Pro"; font-size:32px; font-weight:bold; color:#000; padding:10px 0 15px 0;}
+
+.bot-main{ width:100%; float:left;}
+.bot{ width:50%; float:left;}
+.bot a{ display:block; height:91px; width:91px; border-radius:50%; background-color:#214e94; font-family:"Myriad Pro"; font-size:36px; font-weight:bold; color:#fff; text-align:center; line-height:91px; margin:0 0 0 8%;}
+.bot p{ font-size:14px; padding:16px 0 0 0; text-align:center;}
+.bot a:hover{ background:#C0C;}
+
+.bot-main{ width:100%; float:left;}
+.bot1{ width:50%; float:left;}
+.bot1 a{ display:block; height:91px; width:91px; border-radius:50%; background-color:#FC0; font-family:"Myriad Pro"; font-size:36px; font-weight:bold; color:#fff; text-align:center; line-height:91px; margin:0 0 0 8%;}
+.bot1 p{ font-size:14px; padding:16px 0 0 0; text-align:center;}
+.bot1 a:hover{ background:#C0C;}
+
+
+
+
+.sec-last-main{ width:100%; float:left; padding:78px 0 100px 0;}
+.sec-last-left{ width:43%; float:left;}
+.sec-last-right{ width:53%; float:left; margin:0 0 0 4%; padding:85px 0 82px 0; }
+.sec-last-right h1{ font-family:"Myriad Pro"; font-size:46px; font-weight:bold; color:#a8228c; padding:0 0 44px 0;}
+.sec-last-right h1 span{ color:#000;}
+.sec-last-right ul{ list-style:none; padding:0; margin:0;}
+.sec-last-right li{ font-family:"Myriad Pro"; font-size:22px; color:#484848; line-height:28px; background:url(../images/tick.png) left center no-repeat; padding:5px 0 5px 40px}
+
+
+.last-section{ width:100%; float:left;}
+
+
+
+/*********************************body divs ends******************************/
+
+
+/***********************************footer divs starts************************/
+
+.footer-top{ width:100%; float:left; background-color:#1c1c1c;}
+.footer-bot{ width:100%; float:left; background-color:#000;}
+
+
+
+.footer-top-main{ width:100%; float:left; padding:80px 0 80px 0;}
+.footer-top-left{ width:40%; float:left;}
+
+
+.logo-footer{ width:45%; float:left;}
+
+
+
+.yikon{ width:40%; float:left; border-right:#494949 1px solid; padding:0 0 100px 0;}
+
+.address{ width:50%; float:right;}
+.address h1{ color:#d5d5d5; font-size:22px;}
+.address h2{ color:#939393; font-size:18px; padding:21px 0 27px 0; }
+.address h3{ color:#d5d5d5; font-size:22px; background:url(../images/f-phone.png) left center no-repeat; padding:0 0 0 8%;}
+
+
+.bot-nav{ width:30%; float:right;}
+.bot-nav-left{ width:40%; float:left;}
+.bot-nav-left ul{ list-style:none; margin:0; padding:0;}
+.bot-nav-left ul li{ line-height:30px;}
+.bot-nav-left ul li a{ display:block; font-size:18px; color:#8e8e8e;}
+.bot-nav-left ul li a:hover{ color:#C00;}
+ 
+.bot-nav-right{ width:40%; float:right;}
+.bot-nav-right ul{ list-style:none; margin:0; padding:0;}
+.bot-nav-right ul li{ line-height:30px;}
+.bot-nav-right ul li a{ display:block; font-size:18px; color:#8e8e8e;}
+.bot-nav-right ul li a:hover{ color:#C00;}
+
+
+.copy{ width:100%; float:left; color:#ccc; font-size:14px; text-align:center; line-height:53px;}
